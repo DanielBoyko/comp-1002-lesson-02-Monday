@@ -1,0 +1,52 @@
+<!-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Step 1: Link the example-3 stylesheet -->
+        <link rel="stylesheet" href="style.css">
+        <title>Header, Content, Footer</title>
+    </head>
+
+    <body id="example-1">
+         <div class="menu">  
+            <img class="logo" src="img/Screen Shot 2022-10-19 at 17.14.06.png" alt="logo" width="32"> 
+            <nav>
+                <ul>
+                    <li><a class="menu-element" href="About.html">About</a></li>
+                    <li><a class="menu-element" href=" Contact.html">Contact</a></li>
+                    <li><a class="menu-element" href=" index.html">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="contact-info">
+                <ul>
+                    <li><a href="tel:545454544">Phone:|+1 289-234-0111</a></li>
+                    <li><a href="mailto:mail@gmail.com">hello@gmail.com</a></li>
+                    <li><a href="https://ca.linkedin.com/">My LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="form">
+                <form action="" method="get"> 
+                    <label for="name">Daniel Boyko:</label>
+                    <input type="text" name="name" id="name" required>
+                    <label for="tel">705-984-1894:</label>
+                    <input type="tel" name="tel" id="tel" required>
+                    <label for="email">danielboyko04@gmail.com:</label>
+                    <input type="email" name="email" id="email" >
+                    <button type="submit">Submit</button>
+
+                </form>
+            </div>
+            
+        </div>
+       
+        <footer>
+            <span>&copy;Daniel Boyko</span>
+        </footer>
+    </body>
+</html>
